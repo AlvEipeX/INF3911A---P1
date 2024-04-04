@@ -9,52 +9,21 @@ body {
 
 .banner {
     display: flex;
-  
+    justify-content: center; 
     background-color: #aec3b0;
 }
 
-.banner .derecha {
+
+.centro {
+    display: flex;
+    align-items: center; /* Alinea elementos verticalmente */
+}
+
+.derecha {
     display: flex;
     align-items: center;
-    justify-content: right;
     border: black solid;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 0px; /* Alinea elementos verticalmente */
 }
 
-.subtitulo {
-    display: flex;
-    color: #cc0000;
-    font-size: 30px;
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-bottom: 7px;
-}
-
-.parrafo {
-    font-size: 12px;
-    background-color: #68a54e;
-    color: white;
-    border: 4px solid #cc0000;
-    margin-left: 5%;
-    margin-right: 15%;
-    padding: 5px;
-}
-
-ul {
-    margin-top: 0px;
-    background-color: #68a54e;
-    margin-left: 13%;
-    width: 240px;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-ul li:nth-child(odd) {
-    background-color: #68a54e;
-    color: white;
-}
-
-ul li:nth-child(even) {
-    background-color: rgb(233, 232, 232);
-}
