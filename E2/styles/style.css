@@ -1,29 +1,37 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     color: #eff6e0;
 }
 
 body {
     background-color: #01161e;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .banner {
     display: flex;
-    justify-content: center; 
-    background-color: #aec3b0;
+    justify-content: space-between;
+
 }
 
-
-.centro {
-    display: flex;
-    align-items: center; /* Alinea elementos verticalmente */
-}
-
-.derecha {
+.titulo,
+.titulo h3,
+.titulo i {
     display: flex;
     align-items: center;
-    border: black solid;
     margin: 10px;
-    border-radius: 0px; /* Alinea elementos verticalmente */
 }
 
+.botones {
+    display: flex;
+    margin-top: 15px;
+}
+
+.botones button {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
